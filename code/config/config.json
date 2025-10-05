@@ -1,0 +1,7 @@
+{
+    "repeater_latlon_desc": "Latitude and Longitude for the repeater",
+    "repeater_lat": "0.0",
+    "repeater_lon": "0.0",
+    "repeater_altitude_desc": "Altitude of the repeater in meters",
+    "repeater_altitude": "0"
+}

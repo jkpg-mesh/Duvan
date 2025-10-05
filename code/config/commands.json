@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {"command": "/info", "response": "Good day, Duvan has heard you and sends its regards!"},
+    {"command": "/signal", "response": "Repeater received you RSSI: {rssi_msg}  SNR: {snr_msg}"},
+    {"command": "/distance", "response": "You somewhere out there."},
+    {"command": "/meeting", "response": "Next community meeting is on the: ---."},
+    {"command": "/help", "response": "Available commands: /info, /signal, /distance, /meeting"}
+  ]
+}
