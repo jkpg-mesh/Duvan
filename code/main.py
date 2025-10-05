@@ -214,7 +214,7 @@ def onReceive(raw, packet, interface):
     :param packet: The received packet.
     :param interface: The Meshtastic interface instance.
     """
-    print(raw)
+    #print(raw)
     try:
         match packet['decoded']['portnum']:
             case "TELEMETRY_APP":
