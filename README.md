@@ -1,11 +1,3 @@
----
-title: "The Dove"
-description: "A look at how 'The Dove' became Jönköping’s first Meshtastic beacon."
-author: "jkpg-mesh community"
-date: "2025-10-04"
-tags: ["Meshtastic", "MeshCom", "Community Project", "Jönköping", "LoRa"]
----
-
 # "The Dove"
 ## What Started It
 As with many things in the Meshtastic community, this project began with the excitement of **creating something useful**, the opportunity to **serve the community**, and the possibility of **collaborating with fellow enthusiasts**.
