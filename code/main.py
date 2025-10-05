@@ -181,6 +181,7 @@ def command_handler(packet):
     # extract rssi and snr from packet and formats return message
     rssi = packet.get('rxRssi')
     snr = packet.get('rxSnr')
+
     if rssi is not None:
         rssi_msg = f"{round(rssi, 2)} dBm"
     else:
@@ -207,12 +208,13 @@ def command_handler(packet):
             return msg
     return None
 
-def onReceive(packet, interface):
+def onReceive(raw, packet, interface):
     """
     Handle incoming packets from the Meshtastic device.
     :param packet: The received packet.
     :param interface: The Meshtastic interface instance.
     """
+    print(raw)
     try:
         match packet['decoded']['portnum']:
             case "TELEMETRY_APP":
