@@ -208,13 +208,12 @@ def command_handler(packet):
             return msg
     return None
 
-def onReceive(raw, packet, interface):
+def onReceive(packet, interface):
     """
     Handle incoming packets from the Meshtastic device.
     :param packet: The received packet.
     :param interface: The Meshtastic interface instance.
     """
-    #print(raw)
     try:
         match packet['decoded']['portnum']:
             case "TELEMETRY_APP":
